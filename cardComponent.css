@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    margin: 176px 419px;
+    width: 600px;
+    height: 450px;
+}
+.image{
+    width: 50%;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 50%;
+    /* gap: 30px; */
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+#perfume{
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    
+}
+h3{
+    line-height: 1;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.solar{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+.price-container{
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 23px;
+}
+.current{
+    font-size: 23px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+.old{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 10px;
+}
+.cart-container{
+    display: flex;
+   justify-content: center;
+   border-radius: 10px;
+    gap: 10px;
+    padding: 16px;
+    background-color: hsl(158, 36%, 37%);
+    
+}
+
+#addtocart a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
